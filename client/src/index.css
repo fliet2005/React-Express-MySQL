@@ -14,6 +14,7 @@
   font-weight: 300;
   margin-left: 5px;
   background-color: #ff8200;
+  color: darkblue;
 }
 .btn.btn-ll5:active,
 .btn.btn-ll5:hover,
@@ -29,7 +30,8 @@
 }
 
 .jumbotron {
-  background-color: #002744 !important;
+  /* background-color: #002744 !important; */
+  background-color: lightgray;
   color: #ffffff;
 }
 
@@ -39,6 +41,7 @@
 }
 .jumbotron-heading {
   font-weight: 300;
+  /* color: red; */
 }
 
 h1,
@@ -50,6 +53,7 @@ h6,
 strong,
 b {
   font-weight: 300;
+  /* color: red; */
 }
 
 h1,
@@ -60,4 +64,10 @@ h3 {
 
 .top10 {
   margin-top: 10px;
+  /* color: red; */
+}
+
+.headingFilter {
+  /* background-color: yellowgreen; */
+  color: black;
 }

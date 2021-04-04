@@ -1,6 +1,7 @@
 function search(query) {
-  return fetch(`http://localhost:3001/api/books?firstName=${query}`, {
-    accept: 'application/json'
+  return fetch(`http://localhost:3001/api/test?firstName=${query}`, {
+    // original db schema name is: books, but we can use db: test too
+    accept: "application/json",
   })
     .then(checkStatus)
     .then(parseJSON);
